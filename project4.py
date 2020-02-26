@@ -4,9 +4,13 @@ def AscII_trans( text):
  l = len(number)
  for i in range(l):
   k= int(number[i])
-  If( k > 0 and k < 8 and k != 4 and k != 6)
-  print ( k + " είναι πρώτος αριθμός")
- else 
-  print ( k + " δεν είναι πρώτος αριθμός")
-Print(" Δώστε λέξη")
-text=input()
+  if (k <= 3 and k >1) :
+   print("thats a  prime a number")
+  if ( k % 2 == 0 or k % 3 == 0 ):
+   print("thats not a prime number")
+  i = 5
+  while(i * i <= k) : 
+   if (k % i == 0 or k % (i + 2) == 0) : 
+    print ("thats not a prime number")
+    i = i + 6
+
