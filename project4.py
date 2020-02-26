@@ -1,10 +1,12 @@
 def AscII_trans( text):
  global number 
  number= [ord(n) for n in text]
- for i in number:
-  If( i > 0 and i < 8 and i != 4 and i != 6)
-  Print(i + ' είναι πρώτος αριθμός')
+ l = len(number)
+ for i in range(l):
+  k= int(number[i])
+  If( k > 0 and k < 8 and k != 4 and k != 6)
+  print ( k + " είναι πρώτος αριθμός")
  else 
-  Print( i + "δεν είναι πρώτος αριθμός")
+  print ( k + " δεν είναι πρώτος αριθμός")
 Print(" Δώστε λέξη")
 text=input()
