@@ -1,4 +1,4 @@
-Print("Δώσε μου αριθμό")
+print ("give me a number")
 n=int(input())
 while (n>9):
   n*=3
@@ -8,8 +8,8 @@ while (n>9):
   while(k>0):
     count=count+1
     k=k//10
-    y=0
-  for x inrange(count):
+  y=0
+  for x in range(count):
     k= n%10
     n= n//10
     y= y + k
