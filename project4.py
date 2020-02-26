@@ -2,6 +2,7 @@ def AscII_trans( text):
  global number 
  number= [ord(n) for n in text]
  l = len(number)
+ e= 0
  for i in range(l):
   e= e +number[i]
  k= int(e)
