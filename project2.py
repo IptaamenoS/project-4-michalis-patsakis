@@ -14,9 +14,9 @@ for i in range (k):
   count2=0
   for f in range(8)
     if yeld[f] in messe:
-    count1+=1
-  else:
-    count2+=1
+      count1+=1
+    else:
+      count2+=1
   if count1 >= count2 :
     print ( word[i], "is a bad word")
   else:
